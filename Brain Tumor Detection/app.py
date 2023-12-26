@@ -46,9 +46,6 @@ def predict():
     
     final=model_predict(image_path)
 
-    
-
-
     return render_template('index.html',result=final)
 
 
